@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <link rel="shortcut icon" href="/favicon/favicon_2.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon_2.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>Webserv</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style_sumary.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+</head>
+
+<body>
+    <table class="center">
+        <tr>
+            <th>
+                <!-- GET -->
+                <form action="page/get_form.php">
+                    <button type="submit" id="get_form" class="btn">
+							<pre class="btn-pre">G E T</pre>
+						</button>
+                </form>
+            </th>
+            <th>
+                <!-- POST UPLOAD -->
+                <form action="page/upload_form.html">
+                    <button type="submit" id="upload_form" class="btn">
+							<pre class="btn-pre">U P L O A D</pre>
+						</button>
+                </form>
+            </th>
+            <th>
+                <!-- POST -->
+                <form action="page/post_form.php">
+                    <button type="submit" id="post_form" class="btn">
+							<pre class="btn-pre">P O S T</pre>
+						</button>
+                </form>
+            </th>
+            <th>
+                <!-- DELETE -->
+                <form action="page/delete.php">
+                    <button type="submit" id="post_form" class="btn">
+							<pre class="btn-pre">D E L E T E</pre>
+						</button>
+                </form>
+            </th>
+            <th>
+                <!-- upload folder -->
+                <form action="upload/">
+                    <button type="submit" id="post_form" class="btn">
+							<pre class="btn-pre">U P L O A D   F O L D E R</pre>
+						</button>
+                </form>
+            </th>
+        </tr>
+
+    </table>
+
+    <canvas id="canv" width="1000" height="500"></canvas>
+    <script src="script/tree.js"></script>
+    <div class="title">
+        <pre class="pre-top">┏━                            ━┓</pre>
+        <pre>        W E B S E R V E R       </pre>
+        <pre>          ウェブサーバー          </pre>
+        <pre class="pre-bot">┗━                            ━┛</pre>
+    </div>
+
+    <div class="credit">
+        <pre> <a href="https://codepen.io/tmrDevelops">by Tiffany Rayside</a></pre>
+    </div>
+
+</body>
+
+</html>

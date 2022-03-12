@@ -1,0 +1,90 @@
+.form {
+    width: 90%;
+    height: 100%;
+}
+
+.content-div {
+    width: 40%;
+    height: 100%;
+    /* background-color: var(--bg-color); */
+    background-color: rgba(35, 37, 37, 0.85);
+    color: white;
+    margin: 5%;
+    text-align: left;
+    padding: 10px;
+}
+
+label {
+    font-size: medium;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: stretch;
+}
+
+.input {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(124, 107, 107, 0.473);
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.value {
+    margin-left: 30px;
+}
+
+.formbtn {
+    border: none;
+    border: 1px solid var(--bg-color);
+}
+
+.formbtn:hover {
+    border: 1px solid rgba(4, 10, 36, 0.85);
+}
+
+.info {
+    background-color: var(--bg-pop);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    border: solid 1px white;
+    transition: background-color 1s;
+    color: white;
+    overflow-y: auto;
+
+}
+
+.info:hover {
+    cursor: pointer;
+    background-color: #1a1514f3;
+    /* color: rgb(255, 255, 255); */
+}
+
+.info_content {
+    display: none;
+    /* color: white; */
+    text-align: left;
+    padding: 5%;
+}
+
+
+.xdiv {
+    color: white;
+}
+
+.xdiv:hover {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: black;
+}

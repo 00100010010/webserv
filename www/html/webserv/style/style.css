@@ -1,0 +1,132 @@
+:root {
+    --bg-color: #ac270f3b;
+    --bg-pop: #1a15148a;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+canvas {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.btn-pre {
+    margin: 0;
+}
+
+button {
+    background-color: var(--bg-color);
+    margin: 20px;
+    color: black;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+.btn {
+    width: 250px;
+    padding: 18px;
+    border: none;
+    border-bottom: solid 2px white;
+    color: white;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: solid 2px rgba(0, 0, 0, 0);
+}
+
+.btn:before,
+.btn:after {
+    color: white;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #ffffff;
+    transition: 400ms ease all;
+}
+
+.btn:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn:hover:before,
+.btn:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    position: absolute;
+    padding: 5px;
+    background-color: var(--bg-color);
+}
+
+.credit {
+    color: white;
+    font-weight: bold;
+    right: 0;
+    bottom: 0;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    position: absolute;
+    padding: 10px;
+    font-size: small;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.pre-top {
+    margin-top: 0;
+}
+
+.pre-bot {
+    margin-bottom: 0;
+}
+
+.list {
+    color: white;
+    float: right;
+    align-self: right;
+    position: relative;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Upload</title>
+    <link rel="shortcut icon" href="/favicon/favicon_2.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon_2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/upload_style.css">
+</head>
+
+<body>
+    <table class="center">
+        <tr>
+            <th>
+                <form action="../index.html">
+                    <button type="submit" id="get_form" class="btn">
+							<pre class="btn-pre">H O M E   P A G E</pre>
+						</button>
+                </form>
+            </th>
+
+        </tr>
+
+    </table>
+    <div class="content">
+        <div class="form-div content-div">
+            <form action="/upload/" method="POST" enctype="multipart/form-data">
+                <pre> Upload Form </pre>
+                <label class="name">File : </label></br>
+                <input type="file" name="file" class="input inputfile" name="file" id="file" data-multiple-caption="{count} files selected" multiple required>
+                <label class="labelfile" for="file">Choose a file</label>
+                <br>
+                <button type="submit" id="get_form" class="formbtn">
+						<pre class="btn-pre">U P L O A D</pre>
+					</button>
+
+            </form>
+        </div>
+
+    </div>
+    <canvas id="cvs"></canvas>
+    <script src="../script/upload.js"></script>
+    <div class="credit">
+        <pre> <a href="https://codepen.io/Mamboleoo">by Louis Hoebregts</a></pre>
+    </div>
+
+</body>
+
+</html>
